@@ -7,6 +7,8 @@
 
 body{
   background-color: rgba(250, 255, 224, 1);
+   font-family: "Inter", sans-serif;
+  line-height: 1.5;
 }
 
 .navbar {
@@ -21,8 +23,8 @@ justify-content: space-between;
   display:flex;
   align-items: center;
   list-style: none;
-  gap: 4rem;
-  margin-right: 36px;
+  gap: 5rem;
+  margin-right: 42px;
   padding: 0;
 }
 
