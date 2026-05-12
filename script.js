@@ -1,7 +1,7 @@
-const urlSCB =
+const urlSCB1 =
   "https://api.scb.se/OV0104/v1/doris/sv/ssd/START/MI/MI1303/MI1303B/ExplVatmark";
 
-const querySCB = {
+const querySCB1 = {
   query: [
     {
       code: "Region",
@@ -45,9 +45,9 @@ const querySCB = {
   },
 };
 
-const request = new Request(urlSCB, {
+const request = new Request(urlSCB1, {
   method: "POST",
-  body: JSON.stringify(querySCB),
+  body: JSON.stringify(querySCB1),
 });
 
 fetch(request)
