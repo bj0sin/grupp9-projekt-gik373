@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.body {
+body {
   background-color: rgba(250, 255, 224, 1);
   font-family: "Inter", sans-serif;
   line-height: 1.5;
@@ -87,3 +87,30 @@
   color: bisque;
 }
 /*Jennifer*/
+.hero {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.hero video {
+  width: 100%;
+  object-fit: cover;
+  inset: 0;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(23, 58, 30, 0.59);
+}
+
+.hero h1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  align-items: center;
+}
