@@ -61,6 +61,11 @@ body {
 
 .hero {
   position: relative;
-  height: 320px;
+  height: 400px;
   overflow: hidden;
+}
+
+.hero video {
+  width: 100%;
+  object-fit: cover;
 }
