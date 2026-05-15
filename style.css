@@ -124,6 +124,71 @@ body {
   align-items: center;
 }
 
+.fakta-sektion {
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.karusell-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.knapp {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.karusell {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.fakta-kort {
+  flex: 0 0 320px;
+  scroll-snap-align: start;
+  background-color: rgba(0, 76, 13, 1);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.fakta-bild {
+  width: 100%;
+  height: 200px;
+}
+
+.fakta-text {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  color: rgba(250, 255, 224, 1);
+}
+
+.fakta-text h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.fakta-text p {
+  font-size: 1rem;
+}
+
+.fakta-kalla {
+  margin-top: auto;
+  font-style: italic;
+  padding-top: 15px;
+}
+
 /* css: om oss*/
 
 .container {
@@ -146,7 +211,7 @@ body {
   margin-top: 0px;
 }
 
-h2 {
+.text h2 {
   font-size: 60px;
 }
 
