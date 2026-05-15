@@ -53,3 +53,5 @@ const request = new Request(urlSCB1, {
 fetch(request)
   .then((response) => response.json())
   .then((data) => console.log(data));
+
+// Faktakarusell knappar
