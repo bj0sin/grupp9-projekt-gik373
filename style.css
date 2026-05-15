@@ -146,14 +146,34 @@ body {
   margin-top: 0px;
 }
 
+h2 {
+  font-size: 60px;
+}
+
 .container img {
   width: 30%;
   border-radius: 10px;
   margin-left: 80px;
 }
 
-.kalla {
+.kalla-dropdown {
+  margin-left: 10%;
   margin-top: 10px;
-  font-size: 3rem;
   color: rgba(0, 76, 13, 1);
+}
+
+.kalla-dropdown summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.kallor {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.kallor li {
+  margin-bottom: 15px;
 }
