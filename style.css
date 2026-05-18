@@ -239,7 +239,9 @@ body {
   margin-top: auto;
 }
 
-/* css: om oss*/
+/* /* =====================
+   OM OSS CONTAINER
+===================== */
 
 .container {
   background-color: rgba(0, 76, 13, 1);
@@ -258,7 +260,6 @@ body {
   width: 60%;
   font-size: 1.2rem;
   font-family: "Inter", sans-serif;
-  margin-top: 0px;
 }
 
 .text h2 {
@@ -271,59 +272,77 @@ body {
   margin-left: 80px;
 }
 
-.kalla-dropdown {
-  margin-left: 10%;
-  margin-top: 10px;
-  color: rgba(0, 76, 13, 1);
+/* =====================
+   KÄLLOR + DATA (BOXAR)
+===================== */
+
+.info-container {
+  display: flex;
+  gap: 40px;
+  width: 80%;
+  margin: 40px auto;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
-.kalla-dropdown summary {
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 40px;
-}
-
-.kallor {
-  margin-top: 10px;
-  font-size: 1.2rem;
-  line-height: 1.6;
-}
-
-.kallor li {
-  margin-bottom: 15px;
-}
-
+/* gemensam box-stil */
+.kalla-dropdown,
 .data-dropdown {
-  margin-left: 10%;
-  margin-top: 10px;
-  color: rgba(0, 76, 13, 1);
+  flex: 1;
+  min-width: 300px;
+  padding: 1.5rem;
+
+  background-color: rgba(0, 76, 13, 1);
+  border-radius: 10px;
+  height: auto;
+
+
 }
 
+/* rubriker */
+.kalla-dropdown summary,
 .data-dropdown summary {
+
   cursor: pointer;
   font-weight: bold;
   font-size: 40px;
+  color: rgba(250, 255, 224, 1);
 }
 
+/* innehåll */
+.kallor,
 .data {
   margin-top: 10px;
   font-size: 1.2rem;
   line-height: 1.6;
+  padding-left: 20px;
+  color: rgba(250, 255, 224, 1);
 }
+
+.kallor li,
+.data li {
+  margin-bottom: 15px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+/* =====================
+   FOOTER
+===================== */
 
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   padding: 40px;
   margin-top: 40px;
+
   background-color: rgba(0, 76, 13, 1);
   color: rgba(250, 255, 224, 1);
 }
 
 .footer-contact {
-  color: rgba(250, 255, 224, 1);
   line-height: 1.8;
   font-size: 1.3rem;
-  margin-left: 42px;
 }
