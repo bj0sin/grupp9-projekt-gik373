@@ -1,8 +1,5 @@
-<<<<<<< Updated upstream
 /* hela hemsidans css*/
 
-=======
->>>>>>> Stashed changes
 * {
   margin: 0;
   padding: 0;
@@ -63,36 +60,7 @@ body {
   height: 5rem;
   width: 100%;
 }
-<<<<<<< Updated upstream
 
-/*Jennifer*/
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  background-color: green;
-  width: 100%;
-  height: 20rem;
-}
-
-.card {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  background-color: aqua;
-}
-.image-placeholder {
-  display: grid;
-  grid-template-columns: 1fr fr;
-  background-color: bisque;
-  width: 10rem;
-  height: 20rem;
-}
-
-.p {
-  display: grid;
-  font-size: 1rem;
-  color: bisque;
-}
-/*Jennifer*/
 /* hem */
 
 .hero {
@@ -149,7 +117,7 @@ body {
 
 #sverigekarta {
   flex: 1;
-  background-color: rgba(250, 255, 224, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -171,9 +139,10 @@ body {
 }
 
 .knapp {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
+  background-color: rgba(250, 255, 224, 1);
 }
 
 .karusell {
@@ -219,6 +188,55 @@ body {
   margin-top: auto;
   font-style: italic;
   padding-top: 15px;
+}
+
+.statistik-lankar-sektion {
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.statistik-lankar-sektion h2 {
+  color: rgba(0, 76, 13, 1);
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.lank-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  width: 100%;
+}
+
+.lank-kort {
+  background-color: rgba(0, 76, 13, 1);
+  border-radius: 10px;
+  padding: 30px 20px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: rgba(250, 255, 224, 1);
+}
+
+.lank-kort h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.lank-kort p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.pil-lank {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: auto;
 }
 
 /* css: om oss*/
@@ -291,5 +309,3 @@ body {
   font-size: 1.3rem;
   margin-left: 42px;
 }
-=======
->>>>>>> Stashed changes
